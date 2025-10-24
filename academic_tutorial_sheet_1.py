@@ -6,7 +6,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy import stats as st
 
-# (1) construct a suitable histogram plot for the geiger counter data
+# (1) construct a suitable histogram plot for the geiger counter data ---------------------------------------------------------------------------------------------------------
 
 geiger_counter_data = np.array([15, 25, 22, 31, 25, 19, 8, 24, 44, 30, 34, 12, 7, 33, 19, 20, 19, 42, 38, 27])
 
@@ -16,7 +16,7 @@ plt.xlabel('Number of Alpha Particles in 1 Minute')
 plt.ylabel('Frequency')
 plt.show()
 
-# (2) determine the sample mean, the sample variance, the median and the mode of the geiger counter data
+# (2) determine the sample mean, the sample variance, the median and the mode of the geiger counter data ----------------------------------------------------------------------
 
 mean = np.mean(geiger_counter_data)
 variance = np.var(geiger_counter_data)
